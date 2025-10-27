@@ -3,26 +3,28 @@
 ## File Structure
 
 ```
-info_json: information of all Rust flaky tests
-scripts: source code
-results: model prediction results
+info_json: JSON files containing issue descriptions and patches 
+scripts: Source code
+results: Model prediction outputs and evaluation results
 ```
 
 ## Setup
 
-- Set up your github and openai key
+- Set up github and openai keys
 ```
 export OPENAI_API_KEY=[YOUR KEY]
 export GITHUB_TOKEN=[YOUR TOKEN]
 ```
-- install requiremtnes  
+- Install requiremtnes  
 ```
 python3 -m venv venv
 source venv/bin/activate
-pip install requirememts.txt
+pip install -r requirements.txt
 ```
 
 ## Prompt model 
+
+- Run the following command, output is saved to the `results/` directory:
 ```
-bash -x scripts/eval.sh input_json [MODEL]
+bash -x scripts/eval.sh info_json [MODEL]
 ```

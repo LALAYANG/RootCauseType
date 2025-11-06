@@ -17,8 +17,9 @@ def load_json_files(folder):
             with open(os.path.join(folder, file), "r") as f:
                 yield json.load(f)
 
-def build_prompt(issue_description, patch):
-    return f"""You are an expert in Rust flaky tests. Given the issue description and code patch below, classify the root cause of flaky tests into one of the following categories:
+def build_prompt(issue_description, patch, include_patch=True):
+    if include_patch:
+        return f"""You are an expert in Rust flaky tests. Given the issue description and code patch below, classify the root cause of flaky tests into one of the following categories:
 
 {', '.join(ROOT_CAUSE_OPTIONS)}
 
@@ -29,6 +30,16 @@ Respond only with the exact category name.
 
 ### Code Patch:
 {patch}
+"""
+    else:
+        return f"""You are an expert in Rust flaky tests. Given the issue description below, classify the root cause of flaky tests into one of the following categories:
+
+{', '.join(ROOT_CAUSE_OPTIONS)}
+
+Respond only with the exact category name.
+
+### Issue Description:
+{issue_description}
 """
 
 def classify_root_cause(prompt, model):
@@ -44,7 +55,7 @@ def classify_root_cause(prompt, model):
         print("OpenAI API error:", e)
         return None
 
-def evaluate(folder, model, save_path):
+def evaluate(folder, model, save_path, include_patch=True):
     correct = 0
     total = 0
 
@@ -61,10 +72,10 @@ def evaluate(folder, model, save_path):
             issue = data.get("issue_description", "")
             patch = "\n\n".join(file.get("patch", "") for file in data.get("files_changed", []) if "patch" in file)
 
-            if not issue or not patch:
+            if not issue or (include_patch and not patch):
                 continue
 
-            prompt = build_prompt(issue, patch)
+            prompt = build_prompt(issue, patch, include_patch)
             predicted = classify_root_cause(prompt, model)
 
             if not predicted:
@@ -92,6 +103,7 @@ if __name__ == "__main__":
     parser.add_argument("--input_json", type=str, required=True, help="Directory containing input JSON files")
     parser.add_argument("--model", type=str, default="gpt-4")
     parser.add_argument("--save_path", type=str, default="root_cause_eval_full.jsonl")
+    parser.add_argument("--no_patch", action="store_true", help="Exclude code patch from the prompt")
 
     args = parser.parse_args()
-    evaluate(args.input_json, args.model, save_path=args.save_path)
+    evaluate(args.input_json, args.model, save_path=args.save_path, include_patch=not args.no_patch)

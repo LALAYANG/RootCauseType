@@ -6,10 +6,32 @@ from tqdm import tqdm
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-ROOT_CAUSE_OPTIONS = [
-    "Logic", "Randomness", "Network", "Async Wait", "Concurrency",
-    "Time", "I/O", "Unordered data", "Environment"
-]
+# ROOT_CAUSE_OPTIONS = [
+#     "Logic", "Randomness", "Network", "Async wait", "Concurrency",
+#     "Time", "I/O", "Unordered collections", "Environment"
+# ]
+
+ROOT_CAUSE_OPTIONS = {
+    "Test order dependency": "The test outcome depends on the order in which the tests are run.",
+    "Async wait": "The test execution makes an asynchronous call and does not properly wait for the result of the call to become available before using it.",
+    "Concurrency": "The test non-determinism is due to diﬀerent threads interacting in a non-desirable manner (but not due to asynchronous calls from the Async Wait category), e.g., due to data races, atomicity violations, or deadlocks.",
+    "Resource leak": "A resource leak occurs whenever the application does not properly manage (acquire or release) one or more of its resources, e.g., memory allocations or database connections, leading to intermittent test failures.",
+    "Network": "Tests whose execution depends on network can be flaky because the network is a resource that is hard to control, e.g., due to remote connection failures or local bad socket management.",
+    "Time": "Tests that depend on system time or platform time can fail non-deterministically due to time zone changes, precision of time reported, or other time-related issues.",
+    "I/O": "I/O operations can introduce flakiness when resources like files are not properly managed.",
+    "Randomness": "The use of random objects can make some tests flaky.",
+    "Floating point operations": "Dealing with floating point operations can lead to non-determinism.",
+    "Unordered collections": "Tests that assume a specific order in unordered collections can be flaky.",
+    "OS": "Tests can be flaky due to operating system-level issues, such as dependencies on specific system types or configurations.",
+    "Environment": "Tests that depend on specific environment (such as third-party libraries).",
+    "Logic": "Tests that have inherent logical issues leading to non-deterministic outcomes, such as off-by-one errors or deserialization issues."
+}
+
+# ROOT_CAUSE_OPTIONS = ['Test order dependency', 'Time', 'Resource leak', 
+#                       'Network', 'Unordered collections', 'Async wait', 
+#                       'Concurrency', 'Floating point operations', 
+#                       'Randomness', 'OS', 'I/O']
+
 
 def load_json_files(folder):
     for file in os.listdir(folder):
@@ -19,9 +41,9 @@ def load_json_files(folder):
 
 def build_prompt(issue_description, patch, include_patch=True):
     if include_patch:
-        return f"""You are an expert in Rust flaky tests. Given the issue description and code patch below, classify the root cause of flaky tests into one of the following categories:
+        return f"""You are an expert in flaky tests. Given the issue description and code patch below, classify the root cause of flaky tests into one of the following categories:
 
-{', '.join(ROOT_CAUSE_OPTIONS)}
+{ROOT_CAUSE_OPTIONS}
 
 Respond only with the exact category name.
 
@@ -32,9 +54,9 @@ Respond only with the exact category name.
 {patch}
 """
     else:
-        return f"""You are an expert in Rust flaky tests. Given the issue description below, classify the root cause of flaky tests into one of the following categories:
+        return f"""You are an expert in flaky tests. Given the issue description below, classify the root cause of flaky tests into one of the following categories:
 
-{', '.join(ROOT_CAUSE_OPTIONS)}
+{ROOT_CAUSE_OPTIONS}
 
 Respond only with the exact category name.
 

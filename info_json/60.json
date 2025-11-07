@@ -77,6 +77,6 @@
     }
   ],
   "fix_category": "Change timeout to barrier",
-  "root_cause_category": "Async Wait",
+  "root_cause_category": "Async wait",
   "root_cause_subcategory": "Wait/Join"
 }

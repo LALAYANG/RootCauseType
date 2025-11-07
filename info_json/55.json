@@ -22,6 +22,6 @@
     }
   ],
   "fix_category": "Hard-code configuration",
-  "root_cause_category": "Unordered data",
+  "root_cause_category": "Unordered collections",
   "root_cause_subcategory": "Non-deterministic environment"
 }

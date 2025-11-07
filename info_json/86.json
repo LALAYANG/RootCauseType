@@ -122,6 +122,6 @@
     }
   ],
   "fix_category": "Wait/Lock",
-  "root_cause_category": "Async Wait",
+  "root_cause_category": "Async wait",
   "root_cause_subcategory": "Deadlock"
 }

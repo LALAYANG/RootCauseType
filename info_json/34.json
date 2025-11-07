@@ -12,6 +12,6 @@
     }
   ],
   "fix_category": "Sorting (Database Query)",
-  "root_cause_category": "Unordered data",
+  "root_cause_category": "Unordered collections",
   "root_cause_subcategory": "Sorting"
 }

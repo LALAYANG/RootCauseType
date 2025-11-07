@@ -47,6 +47,6 @@
     }
   ],
   "fix_category": "Wait/Poll",
-  "root_cause_category": "Async Wait",
+  "root_cause_category": "Async wait",
   "root_cause_subcategory": "Unknown state"
 }

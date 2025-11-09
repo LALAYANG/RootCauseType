@@ -1,0 +1,185 @@
+10: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+11: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+15: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+16: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+17: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+19: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+20: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+27: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+30: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+31: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+32: nodef_nopatch, withdef_nopatch
+33: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+35: nodef_nopatch
+38: nodef_nopatch, withdef_nopatch, withdef_withpatch
+40: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+42: nodef_nopatch, nodef_withpatch, withdef_nopatch
+45: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+47: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+48: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+52: nodef_nopatch, nodef_withpatch, withdef_withpatch
+54: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+55: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+65: nodef_nopatch, nodef_withpatch, withdef_nopatch
+66: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+67: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+68: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+70: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+72: nodef_nopatch, nodef_withpatch, withdef_nopatch
+74: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+89: nodef_nopatch, withdef_nopatch, withdef_withpatch
+90: nodef_nopatch, withdef_nopatch
+93: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+99: nodef_withpatch
+103: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+104: withdef_nopatch, withdef_withpatch
+109: nodef_withpatch, withdef_withpatch
+112: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+114: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+115: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+117: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+118: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+120: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+121: nodef_nopatch, withdef_nopatch
+122: nodef_nopatch, nodef_withpatch, withdef_nopatch
+123: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+124: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+125: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+126: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+127: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+128: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+129: nodef_nopatch, nodef_withpatch, withdef_nopatch
+130: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+131: nodef_withpatch, withdef_withpatch
+134: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+135: nodef_nopatch, nodef_withpatch
+147: withdef_nopatch
+152: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+153: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+154: nodef_withpatch, withdef_nopatch, withdef_withpatch
+157: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+159: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+160: nodef_nopatch, nodef_withpatch, withdef_nopatch
+163: nodef_withpatch
+165: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+166: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+178: nodef_nopatch, nodef_withpatch, withdef_nopatch
+180: withdef_nopatch, withdef_withpatch
+186: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+187: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+189: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+190: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+191: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+192: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+194: nodef_nopatch, withdef_nopatch
+198: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+200: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+201: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+202: nodef_nopatch, nodef_withpatch, withdef_nopatch
+203: nodef_nopatch, withdef_nopatch
+204: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+205: nodef_withpatch, withdef_withpatch
+206: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+210: nodef_nopatch, withdef_withpatch
+212: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+223: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+225: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+228: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+229: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+231: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+233: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+235: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+238: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+239: withdef_nopatch
+242: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+243: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+244: nodef_nopatch, withdef_nopatch, withdef_withpatch
+245: nodef_nopatch, nodef_withpatch, withdef_withpatch
+246: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+247: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+248: nodef_nopatch, withdef_nopatch
+250: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+252: nodef_nopatch, withdef_nopatch
+253: nodef_nopatch, withdef_nopatch, withdef_withpatch
+254: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+255: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+256: withdef_nopatch, withdef_withpatch
+260: nodef_nopatch, withdef_nopatch
+262: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+268: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+271: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+273: nodef_nopatch
+280: nodef_nopatch, withdef_nopatch
+281: withdef_nopatch, withdef_withpatch
+283: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+285: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+286: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+287: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+289: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+290: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+291: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+293: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+294: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+295: nodef_nopatch, withdef_nopatch, withdef_withpatch
+296: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+297: nodef_nopatch, withdef_nopatch, withdef_withpatch
+300: withdef_withpatch
+301: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+302: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+305: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+306: nodef_nopatch, withdef_withpatch
+307: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+311: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+312: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+314: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+316: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+319: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+320: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+326: nodef_nopatch, nodef_withpatch
+328: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+330: nodef_nopatch, nodef_withpatch
+336: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+337: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+338: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+340: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+341: nodef_withpatch, withdef_withpatch
+342: nodef_nopatch, withdef_nopatch
+344: nodef_nopatch
+349: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+351: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+353: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+362: nodef_nopatch, withdef_nopatch, withdef_withpatch
+363: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+364: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+365: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+366: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+367: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+369: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+370: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+371: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+373: nodef_nopatch, withdef_nopatch, withdef_withpatch
+374: withdef_nopatch
+375: nodef_nopatch, withdef_nopatch
+378: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+379: nodef_nopatch, nodef_withpatch, withdef_withpatch
+380: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+381: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+385: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+386: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+388: nodef_nopatch, nodef_withpatch, withdef_nopatch
+389: nodef_nopatch, withdef_nopatch
+390: nodef_withpatch
+391: withdef_nopatch
+392: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+393: nodef_nopatch, nodef_withpatch, withdef_withpatch
+394: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+413: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+415: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+416: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+418: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+420: nodef_nopatch, nodef_withpatch, withdef_nopatch
+421: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+427: nodef_withpatch, withdef_withpatch
+428: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+430: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch
+431: nodef_nopatch, nodef_withpatch, withdef_nopatch, withdef_withpatch

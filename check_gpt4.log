@@ -1,0 +1,148 @@
+Updated groundtruth (with gpt4):
+Mapping id 4: original 'Async Wait' -> correct 'Logic'
+Mapping id 12: original 'Async Wait' -> correct 'Concurrency'
+Mapping id 25: original 'Async Wait' -> correct 'Concurrency'
+Mapping id 28: original 'Async Wait' -> correct 'Time'
+Mapping id 38: original 'I/O' -> correct 'Environment'
+Mapping id 45: original 'Concurrency' -> correct 'Logic'
+Mapping id 47: original 'Concurrency' -> correct 'Async Wait'
+Mapping id 50: original 'Concurrency' -> correct 'Logic'
+Mapping id 54: original 'Async Wait' -> correct 'Logic'
+Mapping id 55: original 'Unordered Data' -> correct 'Randomness'
+Mapping id 57: original 'Async Wait' -> correct 'Time'
+Mapping id 62: original 'Concurrency' -> correct 'Async Wait'
+Mapping id 66: original 'Concurrency' -> correct 'Network'
+Mapping id 67: original 'Network' -> correct 'Logic'
+Mapping id 69: original 'Async Wait' -> correct 'Concurrency'
+Mapping id 73: original 'Concurrency' -> correct 'Logic'
+Mapping id 85: original 'Concurrency' -> correct 'Network'
+Mapping id 4: original 'Async Wait' -> correct 'Logic'
+Mapping id 12: original 'Async Wait' -> correct 'Concurrency'
+Mapping id 25: original 'Async Wait' -> correct 'Concurrency'
+Mapping id 28: original 'Async Wait' -> correct 'Time'
+Mapping id 38: original 'I/O' -> correct 'Environment'
+Mapping id 45: original 'Concurrency' -> correct 'Logic'
+Mapping id 47: original 'Concurrency' -> correct 'Async Wait'
+Mapping id 50: original 'Concurrency' -> correct 'Logic'
+Mapping id 54: original 'Async Wait' -> correct 'Logic'
+Mapping id 55: original 'Unordered Data' -> correct 'Randomness'
+Mapping id 57: original 'Async Wait' -> correct 'Time'
+Mapping id 62: original 'Concurrency' -> correct 'Async Wait'
+Mapping id 66: original 'Concurrency' -> correct 'Network'
+Mapping id 67: original 'Network' -> correct 'Logic'
+Mapping id 69: original 'Async Wait' -> correct 'Concurrency'
+Mapping id 73: original 'Concurrency' -> correct 'Logic'
+Mapping id 85: original 'Concurrency' -> correct 'Network'
+
+=======
+True from final_results/results_nodef/results_with_patch/root_cause_eval_info_json_gpt-4-turbo.jsonl: 25 matches
+[1, 2, 3, 4, 5, 12, 14, 18, 25, 26, 28, 33, 34, 38, 41, 49, 51, 57, 60, 66, 69, 71, 80, 81, 84]
+4 Logic Logic True
+81 Concurrency Concurrency True
+26 Randomness Randomness True
+80 Randomness Randomness True
+57 Time Time True
+3 Network Network True
+49 Concurrency Concurrency True
+18 Logic Logic True
+33 Concurrency Concurrency True
+38 Environment Environment True
+71 Time Time True
+51 Environment Environment True
+84 Async Wait Async Wait True
+69 Concurrency Concurrency True
+66 Network Network True
+14 Logic Logic True
+41 Concurrency Concurrency True
+2 Randomness Randomness True
+25 Concurrency Concurrency True
+1 Logic Logic True
+60 Async Wait Async Wait True
+34 Unordered data Unordered data True
+28 Time Time True
+12 Concurrency Concurrency True
+5 Concurrency Concurrency True
+
+True from final_results/results_nodef/results_no_patch/root_cause_eval_info_json_gpt-4-turbo.jsonl: 25 matches
+[1, 2, 3, 4, 5, 12, 13, 14, 29, 32, 33, 35, 40, 41, 43, 51, 60, 66, 69, 71, 74, 80, 81, 85, 86]
+4 Logic Logic True
+81 Concurrency Concurrency True
+80 Randomness Randomness True
+85 Network Network True
+86 Async Wait Async Wait True
+3 Network Network True
+33 Concurrency Concurrency True
+43 Network Network True
+71 Time Time True
+51 Environment Environment True
+69 Concurrency Concurrency True
+74 Network Network True
+66 Network Network True
+35 Logic Logic True
+14 Logic Logic True
+41 Concurrency Concurrency True
+2 Randomness Randomness True
+1 Logic Logic True
+60 Async Wait Async Wait True
+40 Network Network True
+29 I/O I/O True
+13 Network Network True
+32 Async Wait Async Wait True
+12 Concurrency Concurrency True
+5 Concurrency Concurrency True
+
+True from final_results/results_withdef/results_with_patch/root_cause_eval_info_json_gpt-4-turbo.jsonl: 25 matches
+[1, 2, 3, 4, 5, 12, 18, 25, 26, 28, 33, 35, 39, 41, 49, 51, 57, 60, 62, 66, 69, 71, 80, 81, 84]
+4 Logic Logic True
+81 Concurrency Concurrency True
+26 Randomness Randomness True
+80 Randomness Randomness True
+57 Time Time True
+3 Network Network True
+49 Concurrency Concurrency True
+18 Logic Logic True
+33 Concurrency Concurrency True
+71 Time Time True
+51 Environment Environment True
+84 Async wait Async wait True
+69 Concurrency Concurrency True
+66 Network Network True
+35 Logic Logic True
+39 Async wait Async wait True
+41 Concurrency Concurrency True
+2 Randomness Randomness True
+25 Concurrency Concurrency True
+1 Logic Logic True
+60 Async wait Async wait True
+28 Time Time True
+12 Concurrency Concurrency True
+5 Concurrency Concurrency True
+62 Async Wait Async wait True
+
+True from final_results/results_withdef/results_no_patch/root_cause_eval_info_json_gpt-4-turbo.jsonl: 25 matches
+[1, 2, 3, 4, 5, 12, 13, 14, 25, 32, 33, 35, 40, 41, 43, 51, 60, 66, 69, 71, 74, 80, 81, 85, 86]
+4 Logic Logic True
+81 Concurrency Concurrency True
+80 Randomness Randomness True
+85 Network Network True
+86 Async wait Async wait True
+3 Network Network True
+33 Concurrency Concurrency True
+43 Network Network True
+71 Time Time True
+51 Environment Environment True
+69 Concurrency Concurrency True
+74 Network Network True
+66 Network Network True
+35 Logic Logic True
+14 Logic Logic True
+41 Concurrency Concurrency True
+2 Randomness Randomness True
+25 Concurrency Concurrency True
+1 Logic Logic True
+60 Async wait Async wait True
+40 Network Network True
+13 Network Network True
+32 Async wait Async wait True
+12 Concurrency Concurrency True
+5 Concurrency Concurrency True
